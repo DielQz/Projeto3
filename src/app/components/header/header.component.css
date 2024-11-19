@@ -1,0 +1,28 @@
+:host {
+  background-color: blueviolet;
+
+  width: 1097px;
+  height: 53px;
+
+  margin: 41px auto;
+
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+ul {
+
+  display: flex;
+  gap: 32px;
+  list-style: none;
+
+  & li {
+    font-size: 23px;
+  }
+
+}
