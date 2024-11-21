@@ -1,27 +1,65 @@
 # Projeto3
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+## Descrição do Projeto
 
-## Development server
+Este projeto foi desenvolvido para atender aos requisitos da atividade proposta. Ele se destaca pela utilização de **componentização**, **roteamento** e **estilos globais**, garantindo funcionalidade, consistência visual e facilidade de manutenção. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Funcionalidades Principais
 
-## Code scaffolding
+- **Componentização:** 
+  - Componentes reutilizáveis para **header**, **botão**, **card**, **descrição** e **input**, promovendo a consistência e modularidade do código.
+  
+- **Roteamento:** 
+  - Sistema de navegação entre páginas, facilitando a transição entre telas. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Estilos Globais com Variáveis CSS:** 
+  - Definição de variáveis para cores e tipografia no arquivo `styles.css`. 
+  - Aplicação uniforme em todos os componentes e telas para assegurar consistência visual e facilidade de personalização.
 
-## Build
+### Estrutura de Navegação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. **Página de Pedido:**
+   - Navegação para a tela de pedidos ao clicar em "Pedido".
+   
+2. **Página de Cardápio:**
+   - Ao clicar em "Cardápio", o usuário acessa uma tela com as categorias de hambúrgueres.
+   - Ao selecionar uma categoria, o usuário é direcionado para uma página listando os hambúrgueres disponíveis naquela categoria.
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Possíveis Melhorias Futuras
 
-## Running end-to-end tests
+1. Integração com um **backend** e um **banco de dados**.
+2. Adição de um **layout para o cardápio**, contendo todos os produtos.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## Pré-requisitos
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Certifique-se de ter instalado:
+
+- [Node.js](https://nodejs.org/) versão 16 ou superior.
+- [Angular CLI](https://angular.io/cli).
+
+---
+
+## Como Clonar e Executar o Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   cd <NOME_DO_DIRETORIO>Instale as dependências:
+
+2. **Instale as dependências**
+  ```bash
+  Copiar código
+  npm install
+  Inicie o servidor de desenvolvimento:
+
+3. **Clone o repositório:**
+  ```bash
+  Copiar código
+  ng serve
+
+4. **Acesse o projeto no navegador:** 
+  O projeto estará disponível em http://localhost:4200.
