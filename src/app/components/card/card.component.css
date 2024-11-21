@@ -1,0 +1,22 @@
+div {
+
+  width: 336px;
+  height: 336px;
+
+  box-sizing: border-box;
+  padding: 24px 11px 47px 11px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+div:hover {
+
+  border: 1px solid #ED1B00 ;
+
+}

@@ -1,10 +1,10 @@
 :host {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 
   width: 1097px;
   height: 53px;
 
-  margin: 41px auto;
+  margin: 41px auto 84px auto;
 
 
 
@@ -20,9 +20,11 @@ ul {
   display: flex;
   gap: 32px;
   list-style: none;
+  color: #521D16;
 
   & li {
     font-size: 23px;
+
   }
 
 }

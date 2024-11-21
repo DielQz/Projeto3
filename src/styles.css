@@ -1,8 +1,84 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --cor-primaria: #ED0000;
+  --cor-secundaria: #521D16;
+  --cor-ternaria: #fff;
+}
+
 *{
   padding: 0px;
   margin: 0px;
-
+  box-sizing: border-box;
   font-family: sans-serif;
+
+}
+
+.mx-width {
+
+  max-width: 1280px;
+
+}
+
+.bg-1 button{
+
+  background: var(--cor-primaria);
+  color: var(--cor-ternaria);
+  border: none;
+
+}
+.bg-2 button{
+
+  background: var(--cor-secundaria);
+  color: var(--cor-ternaria);
+  border: none;
+
+}
+.bg-3 button{
+
+  background: var(--cor-ternaria);
+  color: var(--cor-secundaria);
+  border: 1px solid var(--cor-primaria);
+
+}
+
+
+h1 {
+
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  color: var(--cor-primaria);
+}
+
+h2 {
+
+  margin-top: 36px;
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49px;
+  color: var(--cor-secundaria);
+
+}
+
+h3 {
+
+  margin-bottom: 22px;
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.5px;
+
+  color: var(--cor-secundaria);
+
+
+}
+
+p{
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px
+
 
 }

@@ -1,0 +1,13 @@
+button {
+  height: 66px;
+  padding: 25px 67px;
+
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

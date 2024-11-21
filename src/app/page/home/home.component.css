@@ -1,0 +1,17 @@
+img {
+
+  margin: auto;
+  display: block;
+
+}
+
+div {
+
+  margin: 71px auto 88px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 45px;
+}
